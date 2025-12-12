@@ -1,0 +1,24 @@
+# --- API & Server ---
+fastapi
+uvicorn
+python-multipart
+pydantic
+
+# --- AI Core & Processing ---
+numpy<2.0
+opencv-python-headless
+ultralytics
+pynvml
+pycuda
+
+# --- ONNX Support (Detector.py içinde import ediyoruz) ---
+onnx
+onnxruntime-gpu
+
+# --- Utilities & Logging ---
+colorama
+psutil
+tqdm
+
+# --- Testing ---
+pytest
