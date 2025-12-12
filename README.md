@@ -130,7 +130,7 @@ python optimization/build_trt_engine.py
 - Optimization profiles (min/opt/max resolution)
 - Workspace size tuning
 - Batch size support
-- INT8 calibration (entropy-based, 200-500 images)
+- INT8 calibration (entropy-based, supports up to 500 images, used full coco128)
 - Saves calibration cache → `models/calibration.cache`
 
 **Outputs:**
@@ -236,5 +236,6 @@ See `requirements.txt` for full dependency list:
 
 **Testing:**
 - `pytest`
+
 
 
