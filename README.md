@@ -64,7 +64,7 @@ cv-advanced-assessment/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/selahattinsina/cv-advanced-assessment
    cd cv-advanced-assessment
    ```
 
@@ -236,4 +236,5 @@ See `requirements.txt` for full dependency list:
 
 **Testing:**
 - `pytest`
+
 
