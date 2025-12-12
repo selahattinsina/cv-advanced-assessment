@@ -17,7 +17,6 @@ def train_model():
     model = YOLO('yolov8n.pt') 
 
     # 2. Eğitimi Başlat
-    # Case Requirements:
     # - Cosine LR schedule (cos_lr=True)
     # - AMP mixed precision (amp=True - Default)
     # - Multi-scale training (imgsz değişkenliği ve rect=False ile sağlanır, scale aug aktif)
